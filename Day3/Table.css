@@ -1,0 +1,28 @@
+ /* table{
+     border: 1px solid blue ;
+     // border = thikness , type , color ;
+     border-collapse: collapse;
+     // border collapse is used to merging the border
+}
+
+th{
+    border: 1px solid blue;
+   
+}
+
+td{
+    border: 1px solid blue;
+}  */
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.q{
+    color: yellow;
+}
+
+.nq{
+    color: red;
+}

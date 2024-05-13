@@ -1,0 +1,45 @@
+#MI{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    text-shadow: 2px -1px 1px red;
+     font-family: "Jersey 25", sans-serif;  /* google fonts  */
+    transition: 3s;
+}
+
+#CSK{
+    color: yellow;
+    text-align: end;
+    font-size: 29px;
+    text-transform: capitalize;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-shadow: 4px 1px 4px blue;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 900px;
+    transition: 3s;
+}
+
+p{
+    line-height: 50px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Psuedo class selector */
+
+#MI:hover{
+    color: green;
+    font-size: 70px;
+    font-family: "Jacquard 24", system-ui;
+}
+
+#CSK:hover{
+    color: blueviolet;
+    font-size: 60px;
+    font-family: "Jersey 25", sans-serif;
+}

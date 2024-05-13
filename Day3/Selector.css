@@ -1,0 +1,34 @@
+/* Element selector  -> one tag name */
+h1 {
+  color: yellow;
+}
+
+/* grouping selector -> many tag names */
+h2,
+h4 {
+  color: blue;
+}
+
+/* class selector */
+.ind {
+  color: red;
+}
+
+.msd {
+  font-size: 80px;
+  background-color: blue;
+}
+
+/* id selector */
+#bm {
+  color: brown;
+}
+
+/* Universal selector */
+
+* {
+  color: chartreuse;
+}
+
+/* 1st preference  will always be given to ID 2nd will be class , 3rd (element,grouping)depends
+ on whoever is connecting last and 4 th will be given to universal selector */
